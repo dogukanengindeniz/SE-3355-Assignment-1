@@ -1,38 +1,29 @@
-# E-Commerce Landing Page (SE3355 Assignment 1 - Group 2)
+# SE3355 Assignment 1 - E-Commerce Landing Page
 
-This is a responsive React-based E-Commerce Landing Page with backend APIs using Express.js and SQLite.
-It includes Redux state management for tracking visited products.
+## Features
+- Sticky Navbar with dropdown menus
+- Main Slider with 10 items (from backend API)
+- Quick Links section (8 campaigns via API)
+- Elektronik Fırsatlar carousel (3 products)
+- Sana Özel Öneriler with ratings
+- Gezilen Ürünler tracked via Redux
 
 ## Stack
-- Frontend: React, Redux, Bootstrap, Custom CSS
-- Backend: Express.js, SQLite (using better-sqlite3)
-- Deployment: Compatible with Render or similar
+- React + Redux
+- Express.js + SQLite
 
-## How to Run
+## Setup
 
 ### Frontend
-```bash
+```
 cd frontend
 npm install
 npm start
 ```
 
 ### Backend
-```bash
+```
 cd backend
 npm install
 node server.js
 ```
-
-Make sure SQLite DB file is initialized with mock data.
-
-## Features
-- Sticky responsive navbar with submenus
-- Quick links (from backend API)
-- Slider with 10 products (API)
-- Elektronik Fırsatlar carousel (API)
-- Sana Özel Öneriler (5 products with stars)
-- Gezilen Ürünler (Redux tracked)
-
----
-Developed by Doğukan Engindeniz
