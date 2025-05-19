@@ -1,0 +1,1 @@
+// Slice for visited product tracking

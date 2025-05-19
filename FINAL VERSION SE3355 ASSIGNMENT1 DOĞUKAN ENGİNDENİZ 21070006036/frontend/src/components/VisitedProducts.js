@@ -1,0 +1,1 @@
+// Redux-tracked visited products list

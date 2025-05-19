@@ -1,0 +1,1 @@
+// Slider fetching 10 products

@@ -1,0 +1,1 @@
+// API endpoints: slider, links, deals, recommended
